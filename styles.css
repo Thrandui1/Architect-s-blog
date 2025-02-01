@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: NB;
+    src: url(font/Norse-Bold.otf);
+}
+
+body, html {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    background: #f7f9fa;
+    width: 70vw;
+    height: 100%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* left-block */
+
+.left-block {
+    height: 100%;
+    width: 30vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.img-interior {
+    display: block;
+    height: 100%;
+    width: 30vw;
+    box-sizing: border-box;
+}
+.img-logo {
+    max-height: 90%;
+}
+
+.class-name {
+    background-color: black;
+    position: absolute;
+    height: 15%;
+    width: 100%;
+    opacity: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 15%;
+}
+
+span {
+    font-size: 5rem;
+    color: white;
+    font-family: NB;
+}
+
+/* RIGHT-BLOCK  */
+
+.right-block {
+    height: 100vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+
+/* upper-block */
+
+.upper-block {
+    height: 30vh;
+    width: auto;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+
+/* central-block */
+
+.central-block {
+    padding: 20px;
+    width: auto;
+    height: 35vh;
+    width: auto;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.central-container-info-text {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.name-container,
+.email-container,
+.password-container {
+    display: flex;
+    gap: 180px;
+}
+
+form {
+    font-size: 1rem;
+}
+
+input {
+    height: 25px;
+    width: 250px;
+}
+
+.hidden {
+    color: red;
+}
+
+/* lower-block */
+
+.lower-block {
+    height: 30vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 25px;
+}
+
+button {
+    font-size: 1rem;
+    padding: 20px 50px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #b0b0b0, #696969);
+    color: white;
+    cursor: pointer;
+    border: none; 
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease; 
+}
+
+button:hover {
+    background: #f7f9fa;
+    color: black;
+}
+
+.footer {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #696969;
+}
+
+a:hover {
+    text-decoration: underline;
+}
